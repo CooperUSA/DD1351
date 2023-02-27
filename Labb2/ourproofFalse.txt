@@ -1,0 +1,12 @@
+[or(p, q)].
+
+q.
+
+[
+  [1, or(p, q), premise   ],
+  [
+    [2, q,        assumption],
+    [3, q,        copy(2)   ]
+  ],
+  [4, q,        impint(2,3)]
+].
