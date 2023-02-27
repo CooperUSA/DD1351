@@ -1,0 +1,15 @@
+[[s0, [s0, s1, s2]],
+ [s1, [s2]],
+ [s2, [s1, s3]],
+ [s3, [s4]],
+ [s4, [s0]]].
+
+[[s0, [close, heat]],
+ [s1, []],
+ [s2, [close]],
+ [s3, [start, close]],
+ [s4, [start, close, heat]]].
+
+s0.
+
+ag(ef(heat)).
